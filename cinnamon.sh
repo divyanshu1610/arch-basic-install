@@ -16,7 +16,7 @@ sudo hwclock --systohc
 # sudo pacman -S --noconfirm nvidia nvidia-utils nvidia-settings
 
 
-sudo pacman -S --noconfirm xorg lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings cinnamon system-config-printers gnome-keyring blueberry cups gnome-terminal firefox arc-gtk-theme arc-icon-theme
+sudo pacman -S --noconfirm xorg lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings cinnamon system-config-printer gnome-keyring blueberry cups gnome-terminal firefox arc-gtk-theme arc-icon-theme
 
 sudo systemctl enable lightdm.service
 sudo systemctl enable org.cups.cupsd.service
